@@ -24,16 +24,13 @@
 
 <body>
 
-  <!-- <div class="card"></div> -->
-
-
+  <div class="loading">
+    <img src="./images/load.gif" alt="">
+  </div>
   <div class="wrapper">
-
     <div class="body_overlay"></div>
     <!-- start header -->
     <div class="wrapper_content">
-
-
       <header>
         <div class="header">
           <!-- start top header -->
@@ -477,24 +474,46 @@
                   <i class="fas fa-chevron-down"></i>
                   <div class="dropdown_one-content">
                     <ul>
-                      <li>category left sidebar</li>
-                      <li>category right sidebar</li>
-                      <li>category no sidebar</li>
+                      <li>
+                        <a href="shop.html">shop page</a>
+                      </li>
+                      <li>
+                        <a href="wishlistPage.html">wishlist Page</a>
+                      </li>
+                      <li>
+                        <a href="productdetails.html">product details</a>
+                      </li>
                       <li class="link_children">
-                        category grid
+                        drop down
                         <i class="fas fa-chevron-right"></i>
                         <div class="dropdown_one-children">
                           <ul>
-                            <li>list grid</li>
-                            <li>view grid</li>
-                            <li>third column</li>
-                            <li>four column</li>
+                            <li>child one</li>
+                            <li>child two</li>
+                            <li>child three</li>
+                            <li>child four</li>
                           </ul>
                         </div>
 
                       </li>
-                      <li>category dropdown</li>
-
+                      <li>
+                        <a href="faq.html">faq page</a>
+                      </li>
+                      <li>
+                        <a href="contactus.html">contact us page</a>
+                      </li>
+                      <li>
+                        <a href="comparePage.html">compare page</a>
+                      </li>
+                      <li>
+                        <a href="checkout.html">checkout page</a>
+                      </li>
+                      <li>
+                        <a href="cartpage.html">cart page</a>
+                      </li>
+                      <li>
+                        <a href="about-us.html">about us page</a>
+                      </li>
                     </ul>
                     <!-- <div class="traingle_overflow-dropdwon">
                             
@@ -693,56 +712,56 @@
           <span class="close_accountView"><i class="fa fa-times"></i></span>
         </div>
         <div class="accounts_view-content">
-         <!-- accounts view -->
-         <div class="accounts_view">
-          <div class="accounts_view-title">
-            <h3>my account</h3>
-            <span class="close_accountView"><i class="fa fa-times"></i></span>
+          <!-- accounts view -->
+          <div class="accounts_view">
+            <div class="accounts_view-title">
+              <h3>my account</h3>
+              <span class="close_accountView"><i class="fa fa-times"></i></span>
+            </div>
+            <div class="accounts_view-content">
+              <!-- sign in section  -->
+              <div class="sign_in">
+                <div class="sign_in-title">
+                  <h4>sign in</h4>
+                  <p>Welcome back! sign in to your Account</p>
+                </div>
+                <div class="sign_in-iputs">
+                  <input type="text" placeholder="Username or email address">
+                  <input type="text" placeholder="Password">
+                </div>
+                <div class="sign_in-remember">
+                  <label class="test">remember me
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <a>help?</a>
+                </div>
+                <div class="sign_in-btn">
+                  <button class="temp_button">login</button>
+                </div>
+              </div>
+              <!-- or -->
+              <div class="or">
+                <span>or</span>
+              </div>
+              <!-- sign up -->
+              <div class="signup">
+                <div class="signup-title">
+                  <h3>create new account</h3>
+                  <p>Create your own account</p>
+                </div>
+                <div class="signup-inputs">
+                  <input type="text" placeholder="First name">
+                  <input type="text" placeholder="Last name">
+                  <input type="email" placeholder="Email">
+                  <input type="password" placeholder="Password">
+                </div>
+                <div class="signup-btn">
+                  <button class="temp_button">register</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="accounts_view-content">
-            <!-- sign in section  -->
-            <div class="sign_in">
-              <div class="sign_in-title">
-                <h4>sign in</h4>
-                <p>Welcome back! sign in to your Account</p>
-              </div>
-              <div class="sign_in-iputs">
-                <input type="text" placeholder="Username or email address">
-                <input type="text" placeholder="Password">
-              </div>
-              <div class="sign_in-remember">
-                <label class="test">remember me
-                  <input type="checkbox">
-                  <span class="checkmark"></span>
-                </label>
-                <a>help?</a>
-              </div>
-              <div class="sign_in-btn">
-                <button class="temp_button">login</button>
-              </div>
-            </div>
-            <!-- or -->
-            <div class="or">
-              <span>or</span>
-            </div>
-            <!-- sign up -->
-            <div class="signup">
-              <div class="signup-title">
-                <h3>create new account</h3>
-                <p>Create your own account</p>
-              </div>
-              <div class="signup-inputs">
-                <input type="text" placeholder="First name">
-                <input type="text" placeholder="Last name">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-              </div>
-              <div class="signup-btn">
-                <button class="temp_button">register</button>
-              </div>
-            </div>
-          </div>
-        </div>
           <!-- or -->
           <div class="or">
             <span>or</span>
@@ -995,7 +1014,7 @@
             <div class="qty">
               <span>qty :</span>
               <div class="qty_input">
-                <input type="text" name="" id="" placeholder="" value="1">
+                <input type="number" name="" id="" placeholder="" value="1">
                 <i class="fas fa-plus"></i>
                 <i class="fas fa-minus"></i>
               </div>
@@ -1041,7 +1060,7 @@
 
         </li>
         <li>
-          <a href="">category 2</a>
+          <span>category 1</span>
           <i class="fas fa-chevron-right"></i>
           <div class="children">
             <ul>
@@ -1059,7 +1078,7 @@
           </div>
         </li>
         <li>
-          <a href="">category 3</a>
+          <span>category 2</span>
           <i class="fas fa-chevron-right"></i>
           <div class="children">
             <ul>
@@ -1076,11 +1095,9 @@
             </div>
           </div>
         </li>
+
         <li>
-          <a href="">category 3</a>
-        </li>
-        <li>
-          <a href="">category 4</a>
+          <span>category 3</span>
           <i class="fas fa-chevron-right"></i>
           <div class="children">
             <ul>
@@ -1111,7 +1128,6 @@
       <i class="fa fa-times"></i>
     </div>
   </div>
-
   <!--Scripts Plugins========================-->
   <script src="./vendors/jquery/jquery-3.3.1.min.js"></script>
   <script src="./vendors/bootstrap-4/js/bootstrap.min.js"></script>
